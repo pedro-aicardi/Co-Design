@@ -1,0 +1,25 @@
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.barra_lateral{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 2.6rem;
+    right: 0.5rem;
+}
+
+.atividades{
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+}
