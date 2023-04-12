@@ -2,6 +2,7 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    border-bottom: 0.1rem solid black;
 }
 
 main{
@@ -14,8 +15,9 @@ main{
     display: flex;
     flex-direction: column;
     position: fixed;
-    top: 2.6rem;
+    top: 3rem;
     right: 0.5rem;
+    border-left: 0.1rem solid black;
 }
 
 .atividades{

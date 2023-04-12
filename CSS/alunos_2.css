@@ -1,0 +1,34 @@
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    border-bottom: 0.1rem solid black;
+}
+
+.quadro{
+    border: 0.1rem solid black;
+    margin: 1rem 1rem;
+    padding: 0.5rem 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.coluna {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.linha {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.linha_titulo {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
