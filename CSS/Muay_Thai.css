@@ -1,6 +1,14 @@
 html{
     width: 100%;
     height: 100%;
+    background-color: #e6e6e6;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-bottom: 1px solid black;
 }
 
 .titulo{
@@ -9,7 +17,6 @@ html{
     display: flex;
     justify-content: center;
     align-items: center;
-    border-bottom: 1px solid black;
     font-size: 1.8rem;
 }
 .seta{
@@ -23,7 +30,8 @@ html{
     justify-content: center;
     align-items: center;
     margin: 1rem;
-    font-size: 3rem;
+    font-size: 2rem;
+    max-width: 60%;
 }
 .lista_exercicios{
     display: flex;
@@ -31,17 +39,18 @@ html{
     flex-direction: column;
     align-items: center;
     font-size: 1.5rem;
-
+    max-width: 70%;
 }
 .barra_lado{
     display: flex;
     flex-direction: column;
     position: fixed;
-    top: 3.9rem;
+    top: 3rem;
     right: 0.5rem;
     border-bottom-left-radius: 2rem;
     border-left: 0.1rem solid black;
+    border-bottom: 0.1rem solid black;
     align-items: flex-end;
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin: 1rem;
 }
