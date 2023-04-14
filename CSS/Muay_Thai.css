@@ -1,0 +1,47 @@
+html{
+    width: 100%;
+    height: 100%;
+}
+
+.titulo{
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid black;
+    font-size: 1.8rem;
+}
+.seta{
+    display: flex;
+    justify-content:left;
+    align-items: center;
+}
+
+.exercicios{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    font-size: 3rem;
+}
+.lista_exercicios{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.5rem;
+
+}
+.barra_lado{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 3.9rem;
+    right: 0.5rem;
+    border-bottom-left-radius: 2rem;
+    border-left: 0.1rem solid black;
+    align-items: flex-end;
+    font-size: 2rem;
+    margin: 1rem;
+}
