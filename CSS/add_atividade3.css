@@ -1,19 +1,20 @@
 html{
     width: 100%;
     height: 100%;
-    background-color: #e6e6e6;
+    background-color: black;
 }
+
 
 header{
     display: flex;
     flex-direction: row;
     justify-content: start;
     align-items: center;
-    border-bottom: 0.1rem solid black;
+    border-bottom: 0.1rem solid #ffee00;
 }
 
 .quadro{
-    border: 0.1rem solid black;
+    border: 0.1rem solid #ffee00;
     margin: 1rem 1rem;
     padding: 0.5rem 0.5rem;
     display: flex;
@@ -25,12 +26,15 @@ header{
     flex-direction: column;
     justify-content: space-evenly;
 }
-
+.margem{
+    margin: 1rem 1rem;
+}
 .linha {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    margin: 0.5rem 0.5rem
 }
 
 .linha_titulo {
@@ -45,4 +49,32 @@ footer {
     flex-direction: row;
     align-items: center;
     justify-content: center;
+}
+
+
+
+.ss_titulo{
+    font-family: 'Almarai', sans-serif;
+}
+.ss_corpo{
+    font-family: 'Poppins', sans-serif;
+}
+.s_corpo{
+    font-family: 'DM Serif Display', serif;
+}
+.s_titulo{
+    font-family: 'Crimson Text', serif;
+}
+.bold{
+    font-weight: bold;
+}
+
+.azul{
+    color: #36aaf7;
+}
+.amarelo{
+    color: #ffee00;
+}
+.vermelho{
+    color: #ff0000;
 }

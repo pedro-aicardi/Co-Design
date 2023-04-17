@@ -1,8 +1,9 @@
 html{
     width: 100%;
     height: 100%;
-    background-color: #e6e6e6;
+    background-color: black;
 }
+
 body{
     width:100%;
     height:100%;
@@ -20,7 +21,7 @@ header{
     font-size: 2rem;
     justify-content: center;
     align-items: center;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #ffee00;
 }
 
 .Treino{
@@ -29,7 +30,7 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid black ;
+    border: 1px solid #ffee00 ;
     margin-top: 5rem;
     font-size: 1.8rem;
 }
@@ -48,4 +49,31 @@ header{
     align-items: first baseline;
     margin: 1rem;
 
+}
+
+
+.ss_titulo{
+    font-family: 'Almarai', sans-serif;
+}
+.ss_corpo{
+    font-family: 'Poppins', sans-serif;
+}
+.s_corpo{
+    font-family: 'DM Serif Display', serif;
+}
+.s_titulo{
+    font-family: 'Crimson Text', serif;
+}
+.bold{
+    font-weight: bold;
+}
+
+.azul{
+    color: #36aaf7;
+}
+.amarelo{
+    color: #ffee00;
+}
+.vermelho{
+    color: #ff0000;
 }
