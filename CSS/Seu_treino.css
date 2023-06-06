@@ -4,24 +4,33 @@ html{
     background-color: black;
 }
 
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 0.2rem solid #ffee00;
+}
+
 body{
     width:100%;
     height:100%;
 }
-header{
-    width: 100%;
-    height:3rem;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    
-}
-.Seu_Treino{
-    display: flex;
+
+.at_pessoal{
     font-size: 2rem;
-    justify-content: center;
-    align-items: center;
-    border-bottom: 1px solid #ffee00;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.Seu_Treino{
+    font-size: 5rem;
+}
+
+.Meio{
+    padding: 0.8rem 0.8rem;
 }
 
 .Treino{
@@ -30,25 +39,38 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid #ffee00 ;
-    margin-top: 5rem;
-    font-size: 1.8rem;
+    border: 0.2rem solid #ffee00;
+    border-radius: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 2.8rem;
 }
 
 .Treino_2{
     display: flex;
     justify-content:center;
     align-items: center;
-    font-size: 1.2rem;
+    font-size: 3rem;
     height: 10rem;
+    padding: 2rem;
+}
+
+.linhas{
+    padding: 0.5rem;
+}
+
+.Baixo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .Atendimento{
     display: flex;
+    flex-direction: column;
     justify-content: flex-end;
-    align-items: first baseline;
+    align-items: center;
     margin: 1rem;
-
 }
 
 
@@ -59,7 +81,7 @@ header{
     font-family: 'Poppins', sans-serif;
 }
 .s_corpo{
-    font-family: 'DM Serif Display', serif;
+    font-family: 'DM Serif Display', serif, 3rem;
 }
 .s_titulo{
     font-family: 'Crimson Text', serif;

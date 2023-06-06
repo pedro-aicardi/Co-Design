@@ -13,6 +13,10 @@ header{
     border-bottom: 0.1rem solid #ffee00;
 }
 
+.editar{
+    font-size: 0.6rem;
+}
+
 .quadro{
     border: 0.1rem solid #ffee00;
     margin: 1rem 1rem;
@@ -43,7 +47,6 @@ header{
     justify-content: start;
     align-items: center;
 }
-
 
 .ss_titulo{
     font-family: 'Almarai', sans-serif;
